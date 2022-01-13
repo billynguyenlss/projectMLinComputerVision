@@ -1,0 +1,1351 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="activation_2" out_port_id="0"/>
+		<IR id="185" name="activation_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_25/y" out_port_id="0"/>
+		<IR id="407" name="conv2d_25/y/EltwiseUnsqueeze5567_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_8" out_port_id="0"/>
+		<IR id="169" name="re_lu_8/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="259" name="dense_8/Tensordot/MatMul/1_port_transpose8941_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_11" out_port_id="0"/>
+		<IR id="195" name="conv2d_11" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="multiply_2" out_port_id="0"/>
+		<IR id="186" name="multiply_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_20/y" out_port_id="0"/>
+		<IR id="372" name="conv2d_20/y/EltwiseUnsqueeze5543_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot" out_port_id="0"/>
+		<IR id="323" name="dense_10/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_10/conv2d" out_port_id="0"/>
+		<IR id="188" name="conv2d_10/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="337" name="dense_11/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="282" name="dense_9/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_14" out_port_id="0"/>
+		<IR id="296" name="conv2d_14" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_14" out_port_id="0"/>
+		<IR id="420" name="re_lu_14" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_18" out_port_id="0"/>
+		<IR id="359" name="conv2d_18" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_6/y" out_port_id="0"/>
+		<IR id="84" name="conv2d_6/y/EltwiseUnsqueeze5467_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_9/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="416" name="1357213575_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_5/depthwise_conv2d" out_port_id="0"/>
+		<IR id="198" name="depthwise_conv2d_5/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_12" out_port_id="0"/>
+		<IR id="354" name="re_lu_12" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d/y" out_port_id="0"/>
+		<IR id="13" name="depthwise_conv2d/y/EltwiseUnsqueeze5439_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_6/BiasAdd" out_port_id="0"/>
+		<IR id="219" name="dense_6/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_29/y" out_port_id="0"/>
+		<IR id="437" name="conv2d_29/y/EltwiseUnsqueeze5587_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_10/conv2d/filter" out_port_id="0"/>
+		<IR id="187" name="conv2d_10/conv2d/Transpose7909_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_28/conv2d/filter" out_port_id="0"/>
+		<IR id="430" name="conv2d_28/conv2d/Transpose8001_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="335" name="dense_11/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_23/conv2d" out_port_id="0"/>
+		<IR id="395" name="conv2d_23/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_9" out_port_id="0"/>
+		<IR id="222" name="re_lu_9/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_1" out_port_id="0"/>
+		<IR id="15" name="re_lu_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_8/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="271" name="dense_8/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5647_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="177" name="dense_5/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot" out_port_id="0"/>
+		<IR id="112" name="dense_2/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_20/conv2d/filter" out_port_id="0"/>
+		<IR id="370" name="conv2d_20/conv2d/Transpose7961_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_14/conv2d/filter" out_port_id="0"/>
+		<IR id="293" name="conv2d_14/conv2d/Transpose7933_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_22/conv2d/filter" out_port_id="0"/>
+		<IR id="382" name="conv2d_22/conv2d/Transpose7969_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_19/conv2d" out_port_id="0"/>
+		<IR id="365" name="conv2d_19/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_10/y" out_port_id="0"/>
+		<IR id="189" name="conv2d_10/y/EltwiseUnsqueeze5491_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_8/conv2d/filter" out_port_id="0"/>
+		<IR id="135" name="conv2d_8/conv2d/Transpose7897_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_3" out_port_id="0"/>
+		<IR id="62" name="re_lu_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_10" out_port_id="0"/>
+		<IR id="275" name="re_lu_10/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_3" out_port_id="0"/>
+		<IR id="238" name="activation_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="add_5__xeno_compat__1" out_port_id="0"/>
+		<IR id="391" name="add_5__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_19/y" out_port_id="0"/>
+		<IR id="366" name="conv2d_19/y/EltwiseUnsqueeze5539_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_2" out_port_id="0"/>
+		<IR id="36" name="re_lu_2/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_11/conv2d/filter" out_port_id="0"/>
+		<IR id="192" name="conv2d_11/conv2d/Transpose7913_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_7/AvgPool" out_port_id="0"/>
+		<IR id="369" name="average_pooling2d_7/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="segment" out_port_id="0"/>
+		<IR id="456" name="segment" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_10/BiasAdd" out_port_id="0"/>
+		<IR id="325" name="dense_10/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_8/depthwise_conv2d" out_port_id="0"/>
+		<IR id="387" name="depthwise_conv2d_8/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_8" out_port_id="0"/>
+		<IR id="138" name="conv2d_8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_2/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="77" name="1358013583_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_9" out_port_id="0"/>
+		<IR id="404" name="activation_9" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_9/depthwise_conv2d" out_port_id="0"/>
+		<IR id="417" name="depthwise_conv2d_9/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_4/BiasAdd" out_port_id="0"/>
+		<IR id="166" name="dense_4/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_9/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="289" name="dense_9/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5603_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_1/AvgPool" out_port_id="0"/>
+		<IR id="99" name="average_pooling2d_1/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_5" out_port_id="0"/>
+		<IR id="96" name="mul_5" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="106" name="dense_2/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_9/y" out_port_id="0"/>
+		<IR id="141" name="conv2d_9/y/EltwiseUnsqueeze5483_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_17/y" out_port_id="0"/>
+		<IR id="352" name="conv2d_17/y/EltwiseUnsqueeze5531_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="224" name="dense_7/Tensordot/MatMul/1_port_transpose8957_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_4/depthwise_conv2d" out_port_id="0"/>
+		<IR id="145" name="depthwise_conv2d_4/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_15" out_port_id="0"/>
+		<IR id="301" name="conv2d_15" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot" out_port_id="0"/>
+		<IR id="49" name="dense_1/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_6" out_port_id="0"/>
+		<IR id="81" name="re_lu_6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_11/y" out_port_id="0"/>
+		<IR id="194" name="conv2d_11/y/EltwiseUnsqueeze5495_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_30/conv2d/filter" out_port_id="0"/>
+		<IR id="442" name="conv2d_30/conv2d/Transpose8009_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_27/conv2d" out_port_id="0"/>
+		<IR id="425" name="conv2d_27/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="44" name="dense_1/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot/shape" out_port_id="0"/>
+		<IR id="232" name="dense_7/Tensordot/Cast_114009_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="159" name="dense_4/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_8/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="386" name="1360413607_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="336" name="dense_11/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="101" name="dense_2/Tensordot/MatMul/1_port_transpose8965_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_7" out_port_id="0"/>
+		<IR id="90" name="conv2d_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_21/conv2d/filter" out_port_id="0"/>
+		<IR id="375" name="conv2d_21/conv2d/Transpose7965_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_15/y" out_port_id="0"/>
+		<IR id="300" name="conv2d_15/y/EltwiseUnsqueeze5519_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu" out_port_id="0"/>
+		<IR id="10" name="re_lu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d" out_port_id="0"/>
+		<IR id="4" name="conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_18/y" out_port_id="0"/>
+		<IR id="358" name="conv2d_18/y/EltwiseUnsqueeze5535_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="277" name="dense_9/Tensordot/MatMul/1_port_transpose8937_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="283" name="dense_9/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="153" name="dense_4/Tensordot/MatMul/1_port_transpose8961_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_7/conv2d/filter" out_port_id="0"/>
+		<IR id="87" name="conv2d_7/conv2d/Transpose7889_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot" out_port_id="0"/>
+		<IR id="130" name="dense_3/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_6/AvgPool" out_port_id="0"/>
+		<IR id="355" name="average_pooling2d_6/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_4" out_port_id="0"/>
+		<IR id="147" name="depthwise_conv2d_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot" out_port_id="0"/>
+		<IR id="31" name="dense/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd" out_port_id="0"/>
+		<IR id="237" name="dense_7/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_6" out_port_id="0"/>
+		<IR id="360" name="activation_6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="213" name="dense_6/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_5/conv2d/filter" out_port_id="0"/>
+		<IR id="72" name="conv2d_5/conv2d/Transpose7877_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot" out_port_id="0"/>
+		<IR id="235" name="dense_7/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="318" name="dense_10/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_5/BiasAdd" out_port_id="0"/>
+		<IR id="184" name="dense_5/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="multiply_6" out_port_id="0"/>
+		<IR id="361" name="multiply_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/y" out_port_id="0"/>
+		<IR id="60" name="conv2d_3/y/EltwiseUnsqueeze5447_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul_21" out_port_id="0"/>
+		<IR id="307" name="mul_21" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_28/y" out_port_id="0"/>
+		<IR id="432" name="conv2d_28/y/EltwiseUnsqueeze5583_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_23/conv2d/filter" out_port_id="0"/>
+		<IR id="394" name="conv2d_23/conv2d/Transpose7977_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_4/conv2d" out_port_id="0"/>
+		<IR id="69" name="conv2d_4/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_11" out_port_id="0"/>
+		<IR id="196" name="mul_11" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="160" name="dense_4/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="124" name="dense_3/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_26" out_port_id="0"/>
+		<IR id="415" name="conv2d_26" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_9/AvgPool" out_port_id="0"/>
+		<IR id="429" name="average_pooling2d_9/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_1/depthwise_conv2d" out_port_id="0"/>
+		<IR id="64" name="depthwise_conv2d_1/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_17/conv2d/filter" out_port_id="0"/>
+		<IR id="350" name="conv2d_17/conv2d/Transpose7949_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_1" out_port_id="0"/>
+		<IR id="133" name="activation_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_30/conv2d" out_port_id="0"/>
+		<IR id="443" name="conv2d_30/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="multiply_9" out_port_id="0"/>
+		<IR id="440" name="multiply_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="119" name="dense_3/Tensordot/MatMul/1_port_transpose8981_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_11/conv2d" out_port_id="0"/>
+		<IR id="193" name="conv2d_11/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_22" out_port_id="0"/>
+		<IR id="385" name="conv2d_22" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_24/conv2d/filter" out_port_id="0"/>
+		<IR id="400" name="conv2d_24/conv2d/Transpose7981_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="229" name="dense_7/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_28" out_port_id="0"/>
+		<IR id="433" name="conv2d_28" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_19" out_port_id="0"/>
+		<IR id="367" name="conv2d_19" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="50" name="dense_1/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5607_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_26/conv2d" out_port_id="0"/>
+		<IR id="413" name="conv2d_26/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_2/AvgPool" out_port_id="0"/>
+		<IR id="151" name="average_pooling2d_2/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_5/y" out_port_id="0"/>
+		<IR id="74" name="conv2d_5/y/EltwiseUnsqueeze5459_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_16" out_port_id="0"/>
+		<IR id="349" name="conv2d_16" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_6/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="218" name="dense_6/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5639_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot/shape" out_port_id="0"/>
+		<IR id="320" name="dense_10/Tensordot/Cast_114127_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/conv2d" out_port_id="0"/>
+		<IR id="7" name="conv2d_1/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/y" out_port_id="0"/>
+		<IR id="8" name="conv2d_1/y/EltwiseUnsqueeze5435_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lambda_2/resize/size" out_port_id="0"/>
+		<IR id="422" name="lambda_2/resize/ResizeBilinear/Cast_114045_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_30/y" out_port_id="0"/>
+		<IR id="444" name="conv2d_30/y/EltwiseUnsqueeze5591_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_9/conv2d/filter" out_port_id="0"/>
+		<IR id="139" name="conv2d_9/conv2d/Transpose7901_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_5/conv2d" out_port_id="0"/>
+		<IR id="73" name="conv2d_5/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_15" out_port_id="0"/>
+		<IR id="450" name="re_lu_15" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot/shape" out_port_id="0"/>
+		<IR id="338" name="dense_11/Tensordot/Cast_114029_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot" out_port_id="0"/>
+		<IR id="182" name="dense_5/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="107" name="dense_2/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_3/AvgPool" out_port_id="0"/>
+		<IR id="204" name="average_pooling2d_3/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="11" name="1358413587_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_6/depthwise_conv2d" out_port_id="0"/>
+		<IR id="251" name="depthwise_conv2d_6/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_transpose/filter" out_port_id="0"/>
+		<IR id="452" name="conv2d_transpose/Transpose8017_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="concatenate_1" out_port_id="0"/>
+		<IR id="398" name="concatenate_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="125" name="dense_3/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_17/conv2d" out_port_id="0"/>
+		<IR id="351" name="conv2d_17/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_9/y" out_port_id="0"/>
+		<IR id="418" name="depthwise_conv2d_9/y/EltwiseUnsqueeze5575_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation" out_port_id="0"/>
+		<IR id="52" name="activation" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_6" out_port_id="0"/>
+		<IR id="85" name="conv2d_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="178" name="dense_5/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="230" name="dense_7/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_4" out_port_id="0"/>
+		<IR id="291" name="activation_4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul_1" out_port_id="0"/>
+		<IR id="5" name="mul_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_27" out_port_id="0"/>
+		<IR id="427" name="conv2d_27" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_29/conv2d" out_port_id="0"/>
+		<IR id="436" name="conv2d_29/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_3" out_port_id="0"/>
+		<IR id="95" name="depthwise_conv2d_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_7" out_port_id="0"/>
+		<IR id="306" name="depthwise_conv2d_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_17" out_port_id="0"/>
+		<IR id="254" name="mul_17" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_1/conv2d/filter" out_port_id="0"/>
+		<IR id="6" name="conv2d_1/conv2d/Transpose7853_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/y" out_port_id="0"/>
+		<IR id="56" name="conv2d_2/y/EltwiseUnsqueeze5443_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="312" name="dense_10/Tensordot/MatMul/1_port_transpose8973_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d/conv2d" out_port_id="0"/>
+		<IR id="2" name="conv2d/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="265" name="dense_8/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input_1" out_port_id="0"/>
+		<IR id="0" name="input_1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="activation_8" out_port_id="0"/>
+		<IR id="379" name="activation_8" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_7/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="231" name="dense_7/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_2" out_port_id="0"/>
+		<IR id="57" name="conv2d_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_11/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="342" name="dense_11/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5615_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="266" name="dense_8/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/BiasAdd" out_port_id="0"/>
+		<IR id="33" name="dense/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot" out_port_id="0"/>
+		<IR id="270" name="dense_8/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="segment/y" out_port_id="0"/>
+		<IR id="455" name="segment/y/EltwiseUnsqueeze5599_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d/AvgPool" out_port_id="0"/>
+		<IR id="18" name="average_pooling2d/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/BiasAdd" out_port_id="0"/>
+		<IR id="51" name="dense_1/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d/conv2d/filter" out_port_id="0"/>
+		<IR id="1" name="conv2d/conv2d/Transpose7849_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_4/AvgPool" out_port_id="0"/>
+		<IR id="257" name="average_pooling2d_4/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_4/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="165" name="dense_4/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5611_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_1/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="63" name="1359613599_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_10/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="446" name="1359213595_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot/shape" out_port_id="0"/>
+		<IR id="267" name="dense_8/Tensordot/Cast_114013_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="284" name="dense_9/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_19" out_port_id="0"/>
+		<IR id="302" name="mul_19" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="concatenate_2" out_port_id="0"/>
+		<IR id="428" name="concatenate_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_22/y" out_port_id="0"/>
+		<IR id="384" name="conv2d_22/y/EltwiseUnsqueeze5551_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul_9" out_port_id="0"/>
+		<IR id="148" name="mul_9" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_8/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="264" name="dense_8/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_24/y" out_port_id="0"/>
+		<IR id="402" name="conv2d_24/y/EltwiseUnsqueeze5563_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_12/conv2d" out_port_id="0"/>
+		<IR id="241" name="conv2d_12/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="add__xeno_compat__1" out_port_id="0"/>
+		<IR id="86" name="add__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_2/y" out_port_id="0"/>
+		<IR id="79" name="depthwise_conv2d_2/y/EltwiseUnsqueeze5463_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_7/y" out_port_id="0"/>
+		<IR id="89" name="conv2d_7/y/EltwiseUnsqueeze5471_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_14/conv2d" out_port_id="0"/>
+		<IR id="294" name="conv2d_14/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_12/y" out_port_id="0"/>
+		<IR id="242" name="conv2d_12/y/EltwiseUnsqueeze5503_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_13/y" out_port_id="0"/>
+		<IR id="247" name="conv2d_13/y/EltwiseUnsqueeze5507_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_7/y" out_port_id="0"/>
+		<IR id="305" name="depthwise_conv2d_7/y/EltwiseUnsqueeze5523_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_4/y" out_port_id="0"/>
+		<IR id="70" name="conv2d_4/y/EltwiseUnsqueeze5455_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="126" name="dense_3/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_7/depthwise_conv2d" out_port_id="0"/>
+		<IR id="304" name="depthwise_conv2d_7/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="multiply_3" out_port_id="0"/>
+		<IR id="239" name="multiply_3" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_7" out_port_id="0"/>
+		<IR id="374" name="activation_7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_14/y" out_port_id="0"/>
+		<IR id="295" name="conv2d_14/y/EltwiseUnsqueeze5515_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_15/conv2d/filter" out_port_id="0"/>
+		<IR id="298" name="conv2d_15/conv2d/Transpose7937_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_13" out_port_id="0"/>
+		<IR id="390" name="re_lu_13" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="concatenate" out_port_id="0"/>
+		<IR id="368" name="concatenate" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="43" name="dense_1/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_5" out_port_id="0"/>
+		<IR id="200" name="depthwise_conv2d_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_23/y" out_port_id="0"/>
+		<IR id="396" name="conv2d_23/y/EltwiseUnsqueeze5559_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="20" name="dense/Tensordot/MatMul/1_port_transpose8977_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_11" out_port_id="0"/>
+		<IR id="328" name="re_lu_11/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/conv2d/filter" out_port_id="0"/>
+		<IR id="58" name="conv2d_3/conv2d/Transpose7865_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/conv2d/filter" out_port_id="0"/>
+		<IR id="54" name="conv2d_2/conv2d/Transpose7861_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot/shape" out_port_id="0"/>
+		<IR id="109" name="dense_2/Tensordot/Cast_113991_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="multiply_8" out_port_id="0"/>
+		<IR id="410" name="multiply_8" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot/shape" out_port_id="0"/>
+		<IR id="179" name="dense_5/Tensordot/Cast_114131_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="38" name="dense_1/Tensordot/MatMul/1_port_transpose8969_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="25" name="dense/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_9/conv2d" out_port_id="0"/>
+		<IR id="140" name="conv2d_9/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_7" out_port_id="0"/>
+		<IR id="143" name="mul_7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_22/conv2d" out_port_id="0"/>
+		<IR id="383" name="conv2d_22/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="add_3__xeno_compat__1" out_port_id="0"/>
+		<IR id="297" name="add_3__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_4/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="144" name="1357613579_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_4/conv2d/filter" out_port_id="0"/>
+		<IR id="68" name="conv2d_4/conv2d/Transpose7873_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="319" name="dense_10/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_2/depthwise_conv2d" out_port_id="0"/>
+		<IR id="78" name="depthwise_conv2d_2/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_13" out_port_id="0"/>
+		<IR id="201" name="mul_13" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_8/y" out_port_id="0"/>
+		<IR id="137" name="conv2d_8/y/EltwiseUnsqueeze5479_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot" out_port_id="0"/>
+		<IR id="217" name="dense_6/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_1/y" out_port_id="0"/>
+		<IR id="65" name="depthwise_conv2d_1/y/EltwiseUnsqueeze5451_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="32" name="dense/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5627_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lambda_1/resize/ResizeBilinear" out_port_id="0"/>
+		<IR id="393" name="lambda_1/resize/ResizeBilinear" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_9" out_port_id="0"/>
+		<IR id="142" name="conv2d_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_7/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="236" name="dense_7/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5631_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_8/y" out_port_id="0"/>
+		<IR id="388" name="depthwise_conv2d_8/y/EltwiseUnsqueeze5555_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_15/conv2d" out_port_id="0"/>
+		<IR id="299" name="conv2d_15/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_25/conv2d/filter" out_port_id="0"/>
+		<IR id="405" name="conv2d_25/conv2d/Transpose7985_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_5/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="183" name="dense_5/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5643_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_3/conv2d" out_port_id="0"/>
+		<IR id="59" name="conv2d_3/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot/shape" out_port_id="0"/>
+		<IR id="46" name="dense_1/Tensordot/Cast_114071_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_19/conv2d/filter" out_port_id="0"/>
+		<IR id="364" name="conv2d_19/conv2d/Transpose7957_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_4/y" out_port_id="0"/>
+		<IR id="146" name="depthwise_conv2d_4/y/EltwiseUnsqueeze5487_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_6/conv2d/filter" out_port_id="0"/>
+		<IR id="82" name="conv2d_6/conv2d/Transpose7885_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_27/conv2d/filter" out_port_id="0"/>
+		<IR id="424" name="conv2d_27/conv2d/Transpose7997_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_16/conv2d" out_port_id="0"/>
+		<IR id="347" name="conv2d_16/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_7" out_port_id="0"/>
+		<IR id="117" name="re_lu_7/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_25/conv2d" out_port_id="0"/>
+		<IR id="406" name="conv2d_25/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="211" name="dense_6/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_3/y" out_port_id="0"/>
+		<IR id="94" name="depthwise_conv2d_3/y/EltwiseUnsqueeze5475_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="330" name="dense_11/Tensordot/MatMul/1_port_transpose8949_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_6/conv2d" out_port_id="0"/>
+		<IR id="83" name="conv2d_6/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_5/y" out_port_id="0"/>
+		<IR id="199" name="depthwise_conv2d_5/y/EltwiseUnsqueeze5499_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mul_3" out_port_id="0"/>
+		<IR id="91" name="mul_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot" out_port_id="0"/>
+		<IR id="288" name="dense_9/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_26/conv2d/filter" out_port_id="0"/>
+		<IR id="412" name="conv2d_26/conv2d/Transpose7989_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_21" out_port_id="0"/>
+		<IR id="378" name="conv2d_21" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_3/BiasAdd" out_port_id="0"/>
+		<IR id="132" name="dense_3/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_1/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="45" name="dense_1/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_2/conv2d" out_port_id="0"/>
+		<IR id="55" name="conv2d_2/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lambda_1/resize/size" out_port_id="0"/>
+		<IR id="392" name="lambda_1/resize/ResizeBilinear/Cast_114025_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="317" name="dense_10/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/shape" out_port_id="0"/>
+		<IR id="28" name="dense/Tensordot/Cast_113993_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="multiply_1" out_port_id="0"/>
+		<IR id="134" name="multiply_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="212" name="dense_6/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="add_6__xeno_compat__1" out_port_id="0"/>
+		<IR id="411" name="add_6__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_18/conv2d/filter" out_port_id="0"/>
+		<IR id="356" name="conv2d_18/conv2d/Transpose7953_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_29/conv2d/filter" out_port_id="0"/>
+		<IR id="435" name="conv2d_29/conv2d/Transpose8005_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_5" out_port_id="0"/>
+		<IR id="344" name="activation_5" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="multiply_5" out_port_id="0"/>
+		<IR id="345" name="multiply_5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_26/y" out_port_id="0"/>
+		<IR id="414" name="conv2d_26/y/EltwiseUnsqueeze5571_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_27/y" out_port_id="0"/>
+		<IR id="426" name="conv2d_27/y/EltwiseUnsqueeze5579_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_16/y" out_port_id="0"/>
+		<IR id="348" name="conv2d_16/y/EltwiseUnsqueeze5527_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_10/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="324" name="dense_10/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5623_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="multiply" out_port_id="0"/>
+		<IR id="53" name="multiply" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot/shape" out_port_id="0"/>
+		<IR id="214" name="dense_6/Tensordot/Cast_114083_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="add_1__xeno_compat__1" out_port_id="0"/>
+		<IR id="191" name="add_1__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_24" out_port_id="0"/>
+		<IR id="403" name="conv2d_24" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="171" name="dense_5/Tensordot/MatMul/1_port_transpose8945_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_2/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="108" name="dense_2/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="multiply_7" out_port_id="0"/>
+		<IR id="380" name="multiply_7" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/MatMul" out_port_id="0"/>
+		<IR id="27" name="dense/Tensordot/MatMul" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="lambda/resize/ResizeBilinear" out_port_id="0"/>
+		<IR id="363" name="lambda/resize/ResizeBilinear" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_12" out_port_id="0"/>
+		<IR id="243" name="conv2d_12" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_3/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="92" name="1356813571_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_3/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="131" name="dense_3/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5635_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lambda/resize/size" out_port_id="0"/>
+		<IR id="362" name="lambda/resize/ResizeBilinear/Cast_114073_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_5/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="176" name="dense_5/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_8/AvgPool" out_port_id="0"/>
+		<IR id="399" name="average_pooling2d_8/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_6/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="250" name="1360013603_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/Tensordot/shape" out_port_id="0"/>
+		<IR id="285" name="dense_9/Tensordot/Cast_114109_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_18/conv2d" out_port_id="0"/>
+		<IR id="357" name="conv2d_18/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_23" out_port_id="0"/>
+		<IR id="397" name="conv2d_23" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_25" out_port_id="0"/>
+		<IR id="408" name="conv2d_25" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="add_8__xeno_compat__1" out_port_id="0"/>
+		<IR id="441" name="add_8__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_5/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="197" name="1356413567_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="multiply_4" out_port_id="0"/>
+		<IR id="292" name="multiply_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="add_7__xeno_compat__1" out_port_id="0"/>
+		<IR id="421" name="add_7__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d/y" out_port_id="0"/>
+		<IR id="3" name="conv2d/y/EltwiseUnsqueeze5431_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot/shape" out_port_id="0"/>
+		<IR id="161" name="dense_4/Tensordot/Cast_114003_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_10/y" out_port_id="0"/>
+		<IR id="448" name="depthwise_conv2d_10/y/EltwiseUnsqueeze5595_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_3/depthwise_conv2d" out_port_id="0"/>
+		<IR id="93" name="depthwise_conv2d_3/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_20" out_port_id="0"/>
+		<IR id="373" name="conv2d_20" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_4" out_port_id="0"/>
+		<IR id="71" name="conv2d_4" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot/Reshape/shape" out_port_id="0"/>
+		<IR id="158" name="dense_4/Tensordot/ReadVariableOp/MinusOne/shapes_concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_12/conv2d/filter" out_port_id="0"/>
+		<IR id="240" name="conv2d_12/conv2d/Transpose7921_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_transpose" out_port_id="0"/>
+		<IR id="454" name="conv2d_transpose" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2d_8/conv2d" out_port_id="0"/>
+		<IR id="136" name="conv2d_8/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_10" out_port_id="0"/>
+		<IR id="190" name="conv2d_10" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_24/conv2d" out_port_id="0"/>
+		<IR id="401" name="conv2d_24/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_13/conv2d" out_port_id="0"/>
+		<IR id="246" name="conv2d_13/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_28/conv2d" out_port_id="0"/>
+		<IR id="431" name="conv2d_28/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_21/conv2d" out_port_id="0"/>
+		<IR id="376" name="conv2d_21/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d/depthwise_conv2d" out_port_id="0"/>
+		<IR id="12" name="depthwise_conv2d/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="mul_15" out_port_id="0"/>
+		<IR id="249" name="mul_15" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="lambda_2/resize/ResizeBilinear" out_port_id="0"/>
+		<IR id="423" name="lambda_2/resize/ResizeBilinear" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_6/Tensordot/ReadVariableOp" out_port_id="0"/>
+		<IR id="206" name="dense_6/Tensordot/MatMul/1_port_transpose8953_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="add_4__xeno_compat__1" out_port_id="0"/>
+		<IR id="381" name="add_4__xeno_compat__1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_12" out_port_id="0"/>
+		<IR id="439" name="activation_12" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_9/BiasAdd" out_port_id="0"/>
+		<IR id="290" name="dense_9/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_20/conv2d" out_port_id="0"/>
+		<IR id="371" name="conv2d_20/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_13/conv2d/filter" out_port_id="0"/>
+		<IR id="245" name="conv2d_13/conv2d/Transpose7925_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="dense_3/Tensordot/shape" out_port_id="0"/>
+		<IR id="127" name="dense_3/Tensordot/Cast_114113_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_13" out_port_id="0"/>
+		<IR id="248" name="conv2d_13" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_30" out_port_id="0"/>
+		<IR id="445" name="conv2d_30" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_21/y" out_port_id="0"/>
+		<IR id="377" name="conv2d_21/y/EltwiseUnsqueeze5547_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_6" out_port_id="0"/>
+		<IR id="253" name="depthwise_conv2d_6" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_2/BiasAdd" out_port_id="0"/>
+		<IR id="114" name="dense_2/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_11/BiasAdd" out_port_id="0"/>
+		<IR id="343" name="dense_11/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_4/Tensordot" out_port_id="0"/>
+		<IR id="164" name="dense_4/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_8/BiasAdd" out_port_id="0"/>
+		<IR id="272" name="dense_8/BiasAdd/Add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_29" out_port_id="0"/>
+		<IR id="438" name="conv2d_29" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_11/Tensordot" out_port_id="0"/>
+		<IR id="341" name="dense_11/Tensordot/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_6/y" out_port_id="0"/>
+		<IR id="252" name="depthwise_conv2d_6/y/EltwiseUnsqueeze5511_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_10/depthwise_conv2d" out_port_id="0"/>
+		<IR id="447" name="depthwise_conv2d_10/depthwise_conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv2d_16/conv2d/filter" out_port_id="0"/>
+		<IR id="346" name="conv2d_16/conv2d/Transpose7945_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_10" out_port_id="0"/>
+		<IR id="409" name="activation_10" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_5/AvgPool" out_port_id="0"/>
+		<IR id="310" name="average_pooling2d_5/AvgPool/Transpose" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense/Tensordot/Reshape" out_port_id="0"/>
+		<IR id="26" name="dense/Tensordot/Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="dense_2/BiasAdd/ReadVariableOp" out_port_id="0"/>
+		<IR id="113" name="dense_2/BiasAdd/ReadVariableOp/EltwiseUnsqueeze5619_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="re_lu_4" out_port_id="0"/>
+		<IR id="67" name="re_lu_4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_11" out_port_id="0"/>
+		<IR id="434" name="activation_11" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="depthwise_conv2d_7/depthwise_conv2d/filter_in" out_port_id="0"/>
+		<IR id="303" name="1358813591_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv2d_7/conv2d" out_port_id="0"/>
+		<IR id="88" name="conv2d_7/conv2d" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="re_lu_5" out_port_id="0"/>
+		<IR id="76" name="re_lu_5" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="add_2__xeno_compat__1" out_port_id="0"/>
+		<IR id="244" name="add_2__xeno_compat__1" out_port_id="2"/>
+	</map>
+</mapping>
