@@ -36,7 +36,7 @@ tensorflow==2.7.0
 tensorflow-estimator==2.7.0
 tensorflow-io-gcs-filesystem==0.23.1
 termcolor==1.1.0
-tflite-runtime==2.7.0
+--extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
 typing_extensions==4.0.1
 urllib3==1.26.8
 Werkzeug==2.0.2
