@@ -46,3 +46,9 @@ python3 demo.py
 ```python
 python demo.py
 ```
+
+## 4) Results
+If you are running successfully, there are 3 output images `out1.jpg`, `out2.jpg`, `out3.jpg` in the project directory.
+In addition, the output in the console is as following:
+
+![Screen capture of successfully run of task 1](img/project1.jpg)
