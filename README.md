@@ -13,7 +13,7 @@ https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
 
 ## Week 1 - Assignment 2
 
-### 1) Prepare the development environment
+### 1) Prepare the test environment
 
 Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
 
@@ -56,9 +56,33 @@ python3 -m build
 py -m pip install --upgrade build
 py -m build
 ```
-Once successful build, you will get the same as below picture:
+Once build successfully, you will get the same as below picture:
 
 ![successful build](img/week1b-001.JPG)
 
 ### 3) Install the package from github repo
 
+```python
+pip install git+https://github.com/billynguyenlss/projectMLinComputerVision.git@week1b
+```
+
+Or to install from directory, after clone my github repo, please run:
+```python
+cd dist
+pip install projectmlincvmediapipe-0.1.0.tar.gz
+```
+
+Once install successfully, you will get the same as below picture:
+![successful run demo executable file](img/week1b-003.jpg)
+
+### 4) To run the executable scripts from terminal
+
+Typing below command and hit `Enter`.
+
+```python
+demo
+```
+
+Then you will get the output from terminal as following
+
+![successful run demo executable file](img/week1b-002.jpg)
