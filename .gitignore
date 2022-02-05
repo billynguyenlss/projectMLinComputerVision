@@ -1,4 +1,4 @@
+.gitignore
 .venv
 .venv3.9
 .python-version
-build

@@ -41,7 +41,9 @@ conda activate <your_virtual_environment_name>
 
 ### 2) Clone my project and build the package
 
+```bash
 git clone --branch week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
+```
 
 To rebuild the project, run following command at the same directory with the `setup.py`
 
