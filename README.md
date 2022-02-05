@@ -3,7 +3,19 @@
 This project under the course "Project machine learning in computer vision".
 Please follow the instruction from below to set up environment for local running.
 
-## 1) Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
+## Week 1 - Assignment 1
+
+Please visit the branch `week1a` to reproduce my work under first assignment of week 1.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
+```
+
+## Week 1 - Assignment 2
+
+### 1) Prepare the development environment
+
+Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
 
 **In Ubuntu:**
 
@@ -27,28 +39,26 @@ conda create -n <your_virtual_environment_name> python=3.8.10
 conda activate <your_virtual_environment_name>
 ```
 
-## 2) Install dependencies for this demo project. 
+### 2) Clone my project and build the package
 
-This command is not required if you are rerunning this project.
+git clone --branch week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
 
-```python
-pip install -r requirements.txt
-```
-
-## 3) Running the demo.py
-
-**In Ubuntu:**
-```python
-python3 demo.py
-```
+To rebuild the project, run following command at the same directory with the `setup.py`
 
 **In Window:**
 ```python
-python demo.py
+python3 -m pip install --upgrade build
+python3 -m build
 ```
 
-## 4) Results
-If you are running successfully, there are 3 output images `out1.jpg`, `out2.jpg`, `out3.jpg` in the project directory.
-In addition, the output in the console is as following:
+**In Ubuntu:**
+```python
+py -m pip install --upgrade build
+py -m build
+```
+Once successful build, you will get the same as below picture:
 
-![Screen capture of successfully run of task 1](img/project1.jpg)
+![successful build](img/week1b-001.JPG)
+
+### 3) Install the package from github repo
+

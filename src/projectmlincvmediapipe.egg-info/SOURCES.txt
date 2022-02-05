@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+asset/model_float16_quant.tflite
+img/portrait.jpg
+src/projectmlincvmediapipe/__init__.py
+src/projectmlincvmediapipe/demo.py
+src/projectmlincvmediapipe/model_float16_quant.tflite
+src/projectmlincvmediapipe/portrait.jpg
+src/projectmlincvmediapipe.egg-info/PKG-INFO
+src/projectmlincvmediapipe.egg-info/SOURCES.txt
+src/projectmlincvmediapipe.egg-info/dependency_links.txt
+src/projectmlincvmediapipe.egg-info/entry_points.txt
+src/projectmlincvmediapipe.egg-info/requires.txt
+src/projectmlincvmediapipe.egg-info/top_level.txt
