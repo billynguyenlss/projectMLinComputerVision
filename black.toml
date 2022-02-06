@@ -22,5 +22,6 @@ exclude = '''
   | buck-out
   | build
   | dist
+  | asset
 )/
 '''

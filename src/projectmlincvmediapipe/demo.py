@@ -1,5 +1,4 @@
 import os
-import pkgutil
 
 import cv2
 import numpy as np

@@ -23,8 +23,6 @@ setup(
         "tensorflow>=2.6",
         "tflite_runtime",
     ],
-    package_data={
-        "projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg"]
-    },
+    package_data={"projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg"]},
     entry_points={"console_scripts": ["demo=projectmlincvmediapipe.demo:main"]},
 )
