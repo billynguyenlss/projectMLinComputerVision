@@ -13,6 +13,14 @@ https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
 
 ## Week 1 - Assignment 2
 
+Please visit the branch `week1b` to reproduce my work under second assignment of week 1.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1b
+```
+
+## Week 2 - Assignment 1
+
 ### 1) Prepare the test environment
 
 Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
@@ -42,49 +50,72 @@ conda activate <your_virtual_environment_name>
 ### 2) Clone my project and build the package
 
 ```bash
-git clone --branch week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
+git clone --branch week2a https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
-To rebuild the project, run following command at the same directory with the `setup.py`
+For all below steps, make sure you are in the test virtual environment, specified as above.
 
-**In Window:**
-```python
-python3 -m pip install --upgrade build
-python3 -m build
-```
+### 3) Configure style linting tools
 
-**In Ubuntu:**
-```python
-py -m pip install --upgrade build
-py -m build
-```
-Once build successfully, you will get the same as below picture:
-
-![successful build](img/week1b-001.JPG)
-
-### 3) Install the package from github repo
+First step to install black as linting tools using pip.
 
 ```python
-pip install git+https://github.com/billynguyenlss/projectMLinComputerVision.git@week1b
+pip install black
 ```
 
-Or to install from directory, after clone my github repo, please run:
-```python
-cd dist
-pip install projectmlincvmediapipe-0.1.0.tar.gz
-```
-
-Once install successfully, you will get the same as below picture:
-![successful run demo executable file](img/week1b-003.jpg)
-
-### 4) To run the executable scripts from terminal
-
-Typing below command and hit `Enter`.
+Configure the condition in `black.toml` file. Please refer to this file for the configuration of my project.
+To run style check, make sure you are in the same directory with the `black.toml` file and run following command:
 
 ```python
-demo
+black .
+```
+If running successfully, you will get the results as following:
+
+![Running pre-commit successfully](img/week2a-002.jpg)
+
+### 4) Configure isort
+
+First step install isort using pip.
+
+```python
+pip install isort
+```
+Configure the condition in `pyproject.toml` file. Please refer to this file for the configuration of my project.
+To run style check, make sure you are in the same directory with the `pyproject.toml` file and run following command:
+
+```python
+isort .
 ```
 
-Then you will get the output from terminal as following
+### 5) Configure code linting tools for your project (static analysis)
 
-![successful run demo executable file](img/week1b-002.jpg)
+First step install flake8 using pip.
+
+```python
+pip install flake8
+```
+Configure the condition in `tox.ini` file. Please refer to this file for the configuration of my project.
+To run style check, make sure you are in the same directory with the `tox.ini` file and run following command:
+
+```python
+flake8 .
+```
+### 6) Configure pre-commit to check code on each commit
+
+First step install pre-commit.
+
+```python
+pip install pre-commit
+```
+
+Configure the condition in `.pre-commit-config.yaml` file. Please refer to this file for the configuration of my project.
+I have included also style check using `black`,`isort`, `flake8` in the pre-commit-config file. By convenience, you can skip step 3 & 4 and run only step 5 using pre-commit method.
+To run all style checking, make sure you are in the same directory with the `.pre-commit-config.yaml` file and run following command:
+
+```python
+pre-commit init-templatedir .
+pre-commit run -a
+```
+If running successfully, you will get the results as following:
+
+![Running pre-commit successfully](img/week2a-001.jpg)
