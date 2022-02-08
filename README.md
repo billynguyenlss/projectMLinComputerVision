@@ -120,5 +120,7 @@ If running successfully, you will get the results as following:
 
 ![Running pre-commit successfully](img/week2a-001.jpg)
 
-From there, everytime you commit, if any code change, when doing `git commit`, there pre-commit will run, check and fix if any violation.
-For example:
+From then, everytime you do commit, the pre-commit will check and fix if any violation.
+You may get the same as below picture:
+
+![Pre-commit check when do git commit](img/week2a-003.jpg)
