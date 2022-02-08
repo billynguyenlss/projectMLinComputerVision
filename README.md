@@ -113,9 +113,12 @@ I have included also style check using `black`,`isort`, `flake8` in the pre-comm
 To run all style checking, make sure you are in the same directory with the `.pre-commit-config.yaml` file and run following command:
 
 ```python
-pre-commit init-templatedir .
+pre-commit install .
 pre-commit run -a
 ```
 If running successfully, you will get the results as following:
 
 ![Running pre-commit successfully](img/week2a-001.jpg)
+
+From there, everytime you commit, if any code change, when doing `git commit`, there pre-commit will run, check and fix if any violation.
+For example:
