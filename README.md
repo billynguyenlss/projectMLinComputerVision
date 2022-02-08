@@ -122,4 +122,3 @@ If running successfully, you will get the results as following:
 
 From there, everytime you commit, if any code change, when doing `git commit`, there pre-commit will run, check and fix if any violation.
 For example:
-
