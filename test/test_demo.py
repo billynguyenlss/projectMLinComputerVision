@@ -27,6 +27,7 @@ def test_small_image():
     img_name = "portrait_small_1.jpg"
     dir_path = os.path.dirname(os.path.realpath(__file__))
     img_path = os.path.join(dir_path, img_name)
+    print(os.getcwd())
     img = cv2.imread(img_path)
 
     h = img.shape[0]
@@ -46,6 +47,7 @@ def test_large_image():
     img_name = "portrait_large_1.jpg"
     dir_path = os.path.dirname(os.path.realpath(__file__))
     img_path = os.path.join(dir_path, img_name)
+    print(os.getcwd())
     img = cv2.imread(img_path)
 
     h = img.shape[0]

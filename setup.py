@@ -24,19 +24,19 @@ setup(
         "tflite_runtime",
     ],
     package_data={
-        "projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg"],
-        "test": ["portrait_large_1.jpg", "portrait_large_2.jpg", "portrait_small_1.jpg", "portrait_small_2.jpg"],
+        "projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg", "*.jpg"],
+        # "test": ["portrait_large_1.jpg", "portrait_large_2.jpg", "portrait_small_1.jpg", "portrait_small_2.jpg"],
     },
-    data_files=[
-        (
-            "test",
-            [
-                "test/portrait_large_1.jpg",
-                "test/portrait_large_2.jpg",
-                "test/portrait_small_1.jpg",
-                "test/portrait_small_2.jpg",
-            ],
-        )
-    ],
+    # data_files=[
+    #     (
+    #         "test",
+    #         [
+    #             "test/portrait_large_1.jpg",
+    #             "test/portrait_large_2.jpg",
+    #             "test/portrait_small_1.jpg",
+    #             "test/portrait_small_2.jpg",
+    #         ],
+    #     )
+    # ],
     entry_points={"console_scripts": ["demo=projectmlincvmediapipe.demo:main"]},
 )
