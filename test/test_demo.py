@@ -18,8 +18,8 @@ def test_regression():
     print("out1:", out1.shape)
     print("out2:", out2.shape)
     assert output.shape == (1, 144, 256, 2)
-    assert out1.shape == (w, h)
-    assert out2.shape == (w, h)
+    assert out1.shape == (h, w)
+    assert out2.shape == (h, w)
 
 
 def test_small_image():
