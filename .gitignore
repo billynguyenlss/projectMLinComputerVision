@@ -2,3 +2,7 @@
 .venv
 .venv3.9
 .python-version
+.vscode
+out1.jpg
+out2.jpg
+out3.jpg

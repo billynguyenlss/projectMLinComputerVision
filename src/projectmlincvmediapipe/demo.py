@@ -1,7 +1,10 @@
 import os
+import sys
 
 import cv2
 import numpy as np
+
+sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
 try:
     from tflite_runtime.interpreter import Interpreter
@@ -9,9 +12,9 @@ except:
     from tensorflow.lite.python.interpreter import Interpreter
 
 
-def main():
+def main(img_name="portrait.jpg"):
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    img_path = os.path.join(dir_path, "portrait.jpg")
+    img_path = os.path.join(dir_path, img_name)
     img = cv2.imread(img_path)
     # img = cv2.imread('portrait.jpg')
 
@@ -56,3 +59,4 @@ def main():
     out3 = cv2.ximgproc.jointBilateralFilter(out2, out1, 8, 75, 75)
 
     cv2.imwrite("out3.jpg", out3)
+    return (output, out1, out2)
