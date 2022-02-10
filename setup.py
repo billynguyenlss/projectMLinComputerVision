@@ -18,7 +18,7 @@ setup(
     packages=find_packages(where="src", exclude=["test"]),  # Required
     python_requires=">=3.6, <3.10",
     install_requires=[
-        "numpy>=1.22",
+        "numpy>=1.20",
         "opencv-contrib-python>=4.5",
         "tensorflow>=2.6",
         "tflite_runtime",

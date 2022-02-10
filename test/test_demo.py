@@ -31,7 +31,7 @@ def test_small_image():
         h = img.shape[0]
         w = img.shape[1]
 
-        output, out1, out2 = demo.main("portrait.jpg")
+        output, out1, out2 = demo.main(img_name)
         print("output:", output.shape)
         print("out1:", out1.shape)
         print("out2:", out2.shape)
@@ -49,7 +49,7 @@ def test_large_image():
         h = img.shape[0]
         w = img.shape[1]
 
-        output, out1, out2 = demo.main("portrait.jpg")
+        output, out1, out2 = demo.main(img_name)
         print("output:", output.shape)
         print("out1:", out1.shape)
         print("out2:", out2.shape)
