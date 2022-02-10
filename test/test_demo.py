@@ -1,14 +1,25 @@
+import os
+
+import cv2
+
 from src.projectmlincvmediapipe import demo
 
 
 def test_regression():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    img_path = os.path.join(dir_path, "portrait.jpg")
+    img = cv2.imread(img_path)
+
+    h = img.shape[0]
+    w = img.shape[1]
+
     output, out1, out2 = demo.main("portrait.jpg")
     print("output:", output.shape)
     print("out1:", out1.shape)
     print("out2:", out2.shape)
     assert output.shape == (1, 144, 256, 2)
-    assert out1.shape == (144, 256)
-    assert out2.shape == (144, 256)
+    assert out1.shape == (w, h)
+    assert out2.shape == (w, h)
 
 
 def test_small_image():
