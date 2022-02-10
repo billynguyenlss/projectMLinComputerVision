@@ -16,14 +16,17 @@ setup(
     author_email="billynguyen.lss@gmail.com",
     package_dir={"": "src"},
     packages=find_packages(where="src", exclude=["test"]),  # Required
-    python_requires=">=3.6, <3.10",
+    python_requires=">=3.7, <3.10",
     install_requires=[
         "numpy>=1.20",
         "opencv-contrib-python>=4.5",
         "tensorflow>=2.6",
         "tflite_runtime",
     ],
-    package_data={"projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg"]},
+    package_data={
+        "projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg"],
+        "test": ["portrait_large_1.jpg", "portrait_large_2.jpg", "portrait_small_1.jpg", "portrait_small_2.jpg"],
+    },
     data_files=[
         (
             "test",
