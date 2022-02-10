@@ -16,7 +16,7 @@ setup(
     author_email="billynguyen.lss@gmail.com",
     package_dir={"": "src"},
     packages=find_packages(where="src", exclude=["test"]),  # Required
-    python_requires=">=3.6, <4",
+    python_requires=">=3.6, <3.10",
     install_requires=[
         "numpy>=1.22",
         "opencv-contrib-python>=4.5",
