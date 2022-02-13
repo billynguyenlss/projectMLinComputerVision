@@ -3,6 +3,13 @@
 This project under the course "Project machine learning in computer vision".
 Please follow the instruction from below to set up environment for local running.
 
+Clone my github repo, specify by branch `week1a`.
+
+```python
+git clone --b week1a https://github.com/billynguyenlss/projectMLinComputerVision.git
+cd projectMLinComputerVision
+```
+
 ## 1) Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
 
 **In Ubuntu:**
