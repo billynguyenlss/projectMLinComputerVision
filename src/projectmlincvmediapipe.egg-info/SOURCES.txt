@@ -9,9 +9,14 @@ src/projectmlincvmediapipe/__init__.py
 src/projectmlincvmediapipe/demo.py
 src/projectmlincvmediapipe/model_float16_quant.tflite
 src/projectmlincvmediapipe/portrait.jpg
+src/projectmlincvmediapipe/portrait_large_1.jpg
+src/projectmlincvmediapipe/portrait_large_2.jpg
+src/projectmlincvmediapipe/portrait_small_1.jpg
+src/projectmlincvmediapipe/portrait_small_2.jpg
 src/projectmlincvmediapipe.egg-info/PKG-INFO
 src/projectmlincvmediapipe.egg-info/SOURCES.txt
 src/projectmlincvmediapipe.egg-info/dependency_links.txt
 src/projectmlincvmediapipe.egg-info/entry_points.txt
 src/projectmlincvmediapipe.egg-info/requires.txt
 src/projectmlincvmediapipe.egg-info/top_level.txt
+test/test_demo.py
