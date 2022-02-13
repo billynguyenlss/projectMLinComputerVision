@@ -13,6 +13,13 @@ https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
 
 ## Week 1 - Assignment 2
 
+Clone my github repo to your computer.
+
+```python
+git clone --b week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
+cd projectMLinComputerVision
+```
+
 ### 1) Prepare the test environment
 
 Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
