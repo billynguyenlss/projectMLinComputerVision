@@ -9,6 +9,8 @@ Please visit the branch `week1a` to reproduce my work under first assignment of 
 
 ```
 https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
+
+git clone -b week1a https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
 ## Week 1 - Assignment 2
@@ -17,9 +19,27 @@ Please visit the branch `week1b` to reproduce my work under second assignment of
 
 ```
 https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1b
+
+git clone -b week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
 ## Week 2 - Assignment 1
+
+Please visit the branch `week2a` to reproduce my work under first assignment of week 2.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week2a
+
+git clone -b week2a https://github.com/billynguyenlss/projectMLinComputerVision.git
+```
+
+## Week 2 - Assignment 2
+
+Please visit the branch `week2b` to reproduce my work under first assignment of week 2.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week2b
+```
 
 ### 1) Prepare the test environment
 
@@ -50,7 +70,7 @@ conda activate <your_virtual_environment_name>
 ### 2) Clone my project and build the package
 
 ```bash
-git clone --branch week2a https://github.com/billynguyenlss/projectMLinComputerVision.git
+git clone --branch week2b https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
 For all below steps, make sure you are in the test virtual environment, specified as above.
