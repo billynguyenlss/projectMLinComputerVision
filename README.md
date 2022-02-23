@@ -96,10 +96,24 @@ Then run the pytest by following command:
 pytest
 ```
 
-### 5) Build CI/CD pipeline
+### 5) Make CI check working for every PR/MR for your repository
 
-Push the completed project to github repo, then set up in Github Action a CI/CD flow to build a Python package.
+Go to your github repository, then go to Settings -> Branches -> add rule.
+Then add rules as following:
 
-Once complete, every time you commit and push a new version (in my case, the branch `main`), then it's automatically build and test the new version. The successful CI/CD flow is as following:
+![Set up CI workflow for Pull Request](img/week2b-002.JPG)
+
+![Set up CI workflow for Pull Request](img/week2b-003.JPG)
+
+### 6) Build CI/CD pipeline
+
+* Push the completed project to github repo, then set up in Github Action a CI/CD flow to build a Python package. This will automatic create a `.github/workflows/python-package.yml` file.
+* For auto build and test, set up another CI workflow `.github/workflows/testPush.yml`.
+* For auto testing for every pull request, set up another CI workflow `.github/workflows/testPR.yml`.
+
+
+Once complete, every time you commit and push a new version (in my case, the branch `main`), then it's automatically build and test the new version.
+
+Then you can go to Github Action to check the status of the CI workflows to be succeed or not.
 
 ![Completed CI/CD workflow](img/week2b-001.JPG)
