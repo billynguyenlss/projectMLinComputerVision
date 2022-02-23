@@ -22,6 +22,8 @@ Please visit the branch `week1a` to reproduce my work under first assignment of 
 
 ```
 https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1a
+
+git clone -b week1a https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
 ## Week 1 - Assignment 2
@@ -30,9 +32,27 @@ Please visit the branch `week1b` to reproduce my work under second assignment of
 
 ```
 https://github.com/billynguyenlss/projectMLinComputerVision/tree/week1b
+
+git clone -b week1b https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
 
 ## Week 2 - Assignment 1
+
+Please visit the branch `week2a` to reproduce my work under first assignment of week 2.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week2a
+
+git clone -b week2a https://github.com/billynguyenlss/projectMLinComputerVision.git
+```
+
+## Week 2 - Assignment 2
+
+Please visit the branch `week2b` to reproduce my work under first assignment of week 2.
+
+```
+https://github.com/billynguyenlss/projectMLinComputerVision/tree/week2b
+```
 
 ### 1) Prepare the test environment
 
@@ -63,75 +83,36 @@ conda activate <your_virtual_environment_name>
 ### 2) Clone my project and build the package
 
 ```bash
-git clone --branch week2a https://github.com/billynguyenlss/projectMLinComputerVision.git
+git clone --branch week2b https://github.com/billynguyenlss/projectMLinComputerVision.git
+cd projectMLinComputerVision
 ```
 
 For all below steps, make sure you are in the test virtual environment, specified as above.
 
-### 3) Configure style linting tools
+### 3) Prepare test cases as requirements
 
-First step to install black as linting tools using pip.
+All test cases are prepared in folder `test`.
 
-```python
-pip install black
-```
+* function `test_regression()` for assignment requirement: "A regression test using a single image that checks results are always the same".
+* function `test_small_image()` and `test_large_image()` for assignment requirement: "A “no error” test with big image, small image".
 
-Configure the condition in `black.toml` file. Please refer to this file for the configuration of my project.
-To run style check, make sure you are in the same directory with the `black.toml` file and run following command:
+### 4) Test in local
 
-```python
-black .
-```
-If running successfully, you will get the results as following:
-
-![Running pre-commit successfully](img/week2a-002.jpg)
-
-### 4) Configure isort
-
-First step install isort using pip.
+You can install `pytest` in virtual environment and run pytest locally before pushing to github repo.
 
 ```python
-pip install isort
+pip install pytest
 ```
-Configure the condition in `pyproject.toml` file. Please refer to this file for the configuration of my project.
-To run style check, make sure you are in the same directory with the `pyproject.toml` file and run following command:
+Then run the pytest by following command:
 
 ```python
-isort .
+pytest
 ```
 
-### 5) Configure code linting tools for your project (static analysis)
+### 5) Build CI/CD pipeline
 
-First step install flake8 using pip.
+Push the completed project to github repo, then set up in Github Action a CI/CD flow to build a Python package.
 
-```python
-pip install flake8
-```
-Configure the condition in `tox.ini` file. Please refer to this file for the configuration of my project.
-To run style check, make sure you are in the same directory with the `tox.ini` file and run following command:
+Once complete, every time you commit and push a new version (in my case, the branch `main`), then it's automatically build and test the new version. The successful CI/CD flow is as following:
 
-```python
-flake8 .
-```
-### 6) Configure pre-commit to check code on each commit
-
-First step install pre-commit.
-
-```python
-pip install pre-commit
-```
-
-Configure the condition in `.pre-commit-config.yaml` file. Please refer to this file for the configuration of my project.
-I have included also style check using `black`,`isort`, `flake8` in the pre-commit-config file. By convenience, you can skip step 3 & 4 and run only step 5 using pre-commit method.
-To run all style checking, make sure you are in the same directory with the `.pre-commit-config.yaml` file and run following command:
-
-```python
-pre-commit install .
-pre-commit run -a
-```
-If running successfully, you will get the results as following:
-
-![Running pre-commit successfully](img/week2a-001.jpg)
-
-From there, everytime you commit, if any code change, when doing `git commit`, there pre-commit will run, check and fix if any violation.
-For example:
+![Completed CI/CD workflow](img/week2b-001.JPG)
