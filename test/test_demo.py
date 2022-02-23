@@ -41,9 +41,9 @@ def test_regression(img_name):
     assert output.shape == (1, 144, 256, 2)
     assert out1.shape == (h, w)
     assert out2.shape == (h, w)
-    # assert mse(out1, out1_true) < 0.05
-    # assert mse(out2, out2_true) < 0.05
-    # assert mse(out3, out3_true) < 0.05
+    assert mse(out1, out1_true) < 0.05
+    assert mse(out2, out2_true) < 0.05
+    assert mse(out3, out3_true) < 0.05
 
 
 @pytest.mark.parametrize("img_name", ["img/portrait_small_1.jpg", "img/portrait_small_2.jpg"])
