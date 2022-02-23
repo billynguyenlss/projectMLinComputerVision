@@ -7,7 +7,7 @@ import numpy as np
 import pytest
 from cv2 import IMREAD_GRAYSCALE
 
-from projectmlincvmediapipe import demo
+from src.projectmlincvmediapipe import demo
 
 sys.path.append(osp.dirname(osp.realpath(__file__)))
 
