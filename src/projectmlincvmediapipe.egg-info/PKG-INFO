@@ -116,3 +116,5 @@ Push the completed project to github repo, then set up in Github Action a CI/CD 
 Once complete, every time you commit and push a new version (in my case, the branch `main`), then it's automatically build and test the new version. The successful CI/CD flow is as following:
 
 ![Completed CI/CD workflow](img/week2b-001.JPG)
+
+
