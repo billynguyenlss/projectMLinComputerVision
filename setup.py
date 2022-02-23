@@ -1,9 +1,20 @@
+import os.path as osp
 import pathlib
+from glob import glob
 
 from setuptools import find_packages, setup
 
 here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
+
+
+def get_data():
+    current_dir = osp.abspath(osp.dirname(__file__))
+    data = glob(current_dir + "/src/projectmlincvmediapipe/*/*")
+    data = ["/".join(elem.replace("\\", "/").split("/")[-2:]) for elem in data]
+
+    return data
+
 
 setup(
     name="projectmlincvmediapipe",
@@ -15,7 +26,7 @@ setup(
     author="billynguyen",
     author_email="billynguyen.lss@gmail.com",
     package_dir={"": "src"},
-    packages=find_packages(where="src", exclude=["test"]),  # Required
+    packages=find_packages(where="src"),  # Required
     python_requires=">=3.7, <3.10",
     install_requires=[
         "numpy>=1.20",
@@ -23,20 +34,6 @@ setup(
         "tensorflow>=2.6",
         "tflite_runtime",
     ],
-    package_data={
-        "projectmlincvmediapipe": ["model_float16_quant.tflite", "portrait.jpg", "*.jpg"],
-        # "test": ["portrait_large_1.jpg", "portrait_large_2.jpg", "portrait_small_1.jpg", "portrait_small_2.jpg"],
-    },
-    # data_files=[
-    #     (
-    #         "test",
-    #         [
-    #             "test/portrait_large_1.jpg",
-    #             "test/portrait_large_2.jpg",
-    #             "test/portrait_small_1.jpg",
-    #             "test/portrait_small_2.jpg",
-    #         ],
-    #     )
-    # ],
+    package_data={"projectmlincvmediapipe": ["img/*.jpg", "model/*.tflite"]},
     entry_points={"console_scripts": ["demo=projectmlincvmediapipe.demo:main"]},
 )
