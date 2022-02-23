@@ -57,7 +57,7 @@ def main(img_name="img/portrait.jpg"):
     out1 = cv2.resize(np.uint8(out1), (w, h))
     out2 = cv2.resize(np.uint8(out2), (w, h))
 
-    cv2.imwrite("out1.jpg", out1, CV_16SC1)
+    cv2.imwrite("out1.jpg", out1)
     cv2.imwrite("out2.jpg", out2)
 
     out3 = cv2.ximgproc.jointBilateralFilter(out2, out1, 8, 75, 75)
