@@ -13,14 +13,16 @@ except:
 
 # dir_path = os.path.dirname(os.path.realpath(__file__))
 model_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "model/model_float16_quant.tflite")
+img_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "img/portrait.jpg")
+image = cv2.imread(img_path)
 
 
-def main(img_name="img/portrait.jpg"):
+def main(img=image):
     # dir_path = os.path.dirname(os.path.realpath(__file__))
-    dir_path = os.path.abspath(os.path.dirname(__file__))
-    img_path = os.path.join(dir_path, img_name)
+    # dir_path = os.path.abspath(os.path.dirname(__file__))
+    # img_path = os.path.join(dir_path, img_name)
     # # img_path = img_name
-    img = cv2.imread(img_path)
+    # img = cv2.imread(img_path)
     # img = cv2.imread('portrait.jpg')
 
     h = img.shape[0]
