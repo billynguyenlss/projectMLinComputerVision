@@ -1,12 +1,15 @@
-import streamlit as st
-from projectmlincvmediapipe import demo
-from PIL import Image
 import numpy as np
+import streamlit as st
+from PIL import Image
+
+from projectmlincvmediapipe import demo
 
 st.title("Welcome to my demo web app")
-st.write("The model applied in this project is Mediapipe Meet Segmentation, which segment a human out of background from a selfie picture.")
+st.write(
+    "The model applied in this project is Mediapipe Meet Segmentation, which segment a human out of background from a selfie picture."
+)
 
-file_upload = st.file_uploader("Upload image here", type=["jpg","jpeg", "png"])
+file_upload = st.file_uploader("Upload image here", type=["jpg", "jpeg", "png"])
 
 if file_upload is not None:
     img = Image.open(file_upload)
@@ -14,7 +17,7 @@ if file_upload is not None:
     with col1:
         st.image(img, "Original image")
 
-    img_numpy = np.array(img.convert('RGB'))
+    img_numpy = np.array(img.convert("RGB"))
     output, out1, out2, out3 = demo.main(img_numpy)
     col1, col2, col3 = st.columns(3)
     with col1:

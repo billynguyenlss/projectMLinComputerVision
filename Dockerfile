@@ -10,6 +10,7 @@ ENV PYTHONUNBUFFERED=1
 # Install pip requirements
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
+RUN python -m pip install git+https://github.com/billynguyenlss/projectMLinComputerVision.git@week3
 
 WORKDIR /app
 COPY . /app
@@ -20,4 +21,4 @@ RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /
 USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["python", "streamlitapp\app.py"]
+CMD ["streamlit run", "streamlitapp\app.py"]
