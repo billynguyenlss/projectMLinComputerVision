@@ -1,2 +1,2 @@
 [console_scripts]
-demo = projectmlincvmediapipe.demo:main
+demo = projectmlincvmediapipe.demo:run

@@ -35,5 +35,5 @@ setup(
         "tflite_runtime",
     ],
     package_data={"projectmlincvmediapipe": ["img/*.jpg", "model/*.tflite"]},
-    entry_points={"console_scripts": ["demo=projectmlincvmediapipe.demo:main"]},
+    entry_points={"console_scripts": ["demo=projectmlincvmediapipe.demo:run"]},
 )
