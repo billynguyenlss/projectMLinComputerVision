@@ -3,26 +3,15 @@ import sys
 
 import cv2
 import numpy as np
+from tflite_runtime.interpreter import Interpreter
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
-try:
-    from tflite_runtime.interpreter import Interpreter
-except:
-    from tensorflow.lite.python.interpreter import Interpreter
 
-# dir_path = os.path.dirname(os.path.realpath(__file__))
 model_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "model/model_float16_quant.tflite")
 
 
 def main(img):
-    # dir_path = os.path.dirname(os.path.realpath(__file__))
-    # dir_path = os.path.abspath(os.path.dirname(__file__))
-    # img_path = os.path.join(dir_path, img_name)
-    # # img_path = img_name
-    # img = cv2.imread(img_path)
-    # img = cv2.imread('portrait.jpg')
-
     h = img.shape[0]
     w = img.shape[1]
 
@@ -43,15 +32,11 @@ def main(img):
     interpreter.invoke()
     output = interpreter.get_tensor(output_details)
 
-    # print(output.shape)
     out1 = output[0][:, :, 0]
     out2 = output[0][:, :, 1]
 
     out1 = np.invert((out1 > 0.5) * 255)
     out2 = np.invert((out2 > 0.5) * 255)
-
-    # print("out1:", out1.shape)
-    # print("out2:", out2.shape)
 
     out1 = cv2.resize(np.uint8(out1), (w, h))
     out2 = cv2.resize(np.uint8(out2), (w, h))
