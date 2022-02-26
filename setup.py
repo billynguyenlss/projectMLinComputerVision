@@ -31,7 +31,7 @@ setup(
     install_requires=[
         "numpy>=1.20",
         "opencv-contrib-python>=4.5",
-        "tensorflow>=2.6",
+        # "tensorflow>=2.6",
         "tflite_runtime",
     ],
     package_data={"projectmlincvmediapipe": ["img/*.jpg", "model/*.tflite"]},
