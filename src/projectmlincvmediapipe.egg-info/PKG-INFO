@@ -130,5 +130,3 @@ Once complete, every time you commit and push a new version (in my case, the bra
 Then you can go to Github Action to check the status of the CI workflows to be succeed or not.
 
 ![Completed CI/CD workflow](img/week2b-001.JPG)
-
-
