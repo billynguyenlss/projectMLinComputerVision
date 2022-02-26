@@ -3,15 +3,19 @@ import sys
 
 import cv2
 import numpy as np
-from tflite_runtime.interpreter import Interpreter
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 
+try:
+    from tflite_runtime.interpreter import Interpreter
+except:
+    from tensorflow.lite.python.interpreter import Interpreter
 
 model_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "model/model_float16_quant.tflite")
 
 
 def main(img):
+
     h = img.shape[0]
     w = img.shape[1]
 
