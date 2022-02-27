@@ -6,17 +6,16 @@ repos:
         exclude:
             asset |
             build |
-            dist
-    -   id: end-of-file-fixer
+            dist  |
+            projectmlincvmediapipe.egg-info |
+            __pycache__
+    -   id: trailing-whitespace
         exclude:
             asset |
             build |
-            dist
-    -   id: trailing-whitespace
-        exclude:
-           asset    |
-           build    |
-           dist
+            dist  |
+            projectmlincvmediapipe.egg-info |
+            __pycache__
 -   repo: https://github.com/psf/black
     rev: 21.12b0
     hooks:
@@ -25,7 +24,9 @@ repos:
         exclude:
             asset |
             build |
-            dist
+            dist  |
+            projectmlincvmediapipe.egg-info |
+            __pycache__
 -   repo: https://github.com/pre-commit/mirrors-isort
     rev: 1ba6bfc # Use the revision sha / tag you want to point at
     hooks:
@@ -34,7 +35,9 @@ repos:
         exclude:
             asset |
             build |
-            dist
+            dist  |
+            projectmlincvmediapipe.egg-info |
+            __pycache__
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.2
     hooks:
@@ -43,4 +46,6 @@ repos:
         exclude:
             asset |
             build |
-            dist
+            dist  |
+            projectmlincvmediapipe.egg-info |
+            __pycache__
