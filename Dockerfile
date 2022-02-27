@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # # Keeps Python from generating .pyc files in the container
 ENV DEBIAN_FRONTEND=noninteractive
