@@ -18,8 +18,7 @@ COPY dist/projectmlincvmediapipe-0.1.0-py3-none-any.whl .
 RUN python3 -m pip install projectmlincvmediapipe-0.1.0-py3-none-any.whl
 
 RUN python3 -m pip install streamlit \
-    && rm -rf /var/cache/apt/archives \
-    && rm -rf /var/lib/apt/lists
+    && rm -rf /var/cache/apt/archives && rm -rf /var/lib/apt/lists
 
 # copy app.py to run
 WORKDIR /app
