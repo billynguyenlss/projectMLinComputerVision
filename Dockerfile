@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM ubuntu:20.04
+FROM ubuntu:20.04 as base
 
 # # Keeps Python from generating .pyc files in the container
 ENV DEBIAN_FRONTEND=noninteractive
@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 RUN apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev
 RUN apt-get install -y --fix-missing ffmpeg libsm6 libxext6
 
+FROM base
 RUN python3 -m pip install --upgrade pip && python3 -m pip install build
 
 # install dependencies for streamlit web demo
