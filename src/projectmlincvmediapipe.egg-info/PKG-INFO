@@ -108,6 +108,19 @@ The docker image building spec are defined in `Dockerfile` and `docker-compose.y
 
 The CI workflow to build and push the docker image to Docker Hub is defined in `.gibhub/workflows/docker-build-push.yml`. The procedure to prepare this file can be refered from https://docs.docker.com/ci-cd/github-actions/.
 
-To make CI workflow run faster, pre-configured docker image are set up as ...
+To make CI workflow run faster, I have configured the build-cache in the `Dockerfile`, please refer detail in `.gibhub/workflows/docker-build-push.yml`.
 
+### 5) Running docker image
+
+To run my docker image, please run following command (make sure you have Docker installed in your system).
+
+```python
+docker container run -p 8501:8501 billynguyenco/projectmlincomputervision_mediapipe:latest
+```
+
+Then you can access my web app via http://localhost:8501
+
+The video example is attached as below:
+
+![<img src="https://img.youtube.com/vi/jw0M6mH060Q/maxresdefault.jpg" width="50%">](https://youtu.be/jw0M6mH060Q)
 
