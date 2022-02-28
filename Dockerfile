@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 RUN apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev
 RUN apt-get install -y --fix-missing ffmpeg libsm6 libxext6
 
-FROM base
 RUN python3 -m pip install --upgrade pip && python3 -m pip install build
 
 # install dependencies for streamlit web demo
