@@ -5,9 +5,9 @@ FROM ubuntu:20.04 as base
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install dependencies for ubuntu build
-RUN apt-get update && apt-get install -y --no-install-recommends build-essential
-RUN apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev
-RUN apt-get install -y --fix-missing ffmpeg libsm6 libxext6
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential && rm -rf /var/lib/apt/lists/*
+RUN apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get install -y --fix-missing ffmpeg libsm6 libxext6 && rm -rf /var/lib/apt/lists/*
 
 RUN python3 -m pip install --upgrade pip && python3 -m pip install build
 
