@@ -109,4 +109,6 @@ Then you can access my web app via http://localhost:8501
 
 The video example is attached as below:
 
-![<img src="https://img.youtube.com/vi/jw0M6mH060Q/maxresdefault.jpg" width="50%">](https://youtu.be/jw0M6mH060Q)
+
+https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4
+
