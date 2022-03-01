@@ -55,46 +55,23 @@ https://github.com/billynguyenlss/projectMLinComputerVision/tree/week2b
 
 git clone -b week2b https://github.com/billynguyenlss/projectMLinComputerVision.git
 ```
+## Week 3 - Assignment
 
-### 1) Prepare the test environment
+### 1) Install docker
 
-Select python version (as tensorflow work only for python version 3.7-3.9) and create a virtual environment
+Make sure you have docker installed in your system.
 
-**In Ubuntu:**
-
-```python
-pyenv install 3.8.10
-```
-
-Create and activate virtual environment:
-
-```python
-pyenv virtualenv 3.8.10 .venv
-
-pyenv local .venv
-```
-
-**In Window:**
-
-```python
-conda create -n <your_virtual_environment_name> python=3.8.10
-
-conda activate <your_virtual_environment_name>
-```
-
-### 2) Clone my project and build the package
+### 2) Clone my project
 
 ```bash
 git clone --branch week3 https://github.com/billynguyenlss/projectMLinComputerVision.git
 cd projectMLinComputerVision
 ```
 
-For all below steps, make sure you are in the test virtual environment, specified as above.
-
 ### 3) Prepare Inference web app demo with streamlit
 
 To use streamlit, I have add the streamlit to the `requirements.txt` file.
-In the virtual environment, install streamlit.
+In the virtual environment, install streamlit, if you want to run my web app locally without using docker.
 
 ```python
 pip install streamlit
