@@ -5,8 +5,8 @@ FROM ubuntu:20.04 as builder
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install dependencies for ubuntu build
-RUN apt-get update && apt-get install -y --no-install-recommends build-essential
-#    && apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
+   && apt-get install -y --no-install-recommends python3 python3-pip python3.8-venv python3.8-dev
 # RUN apt-get install -y --fix-missing ffmpeg libsm6 libxext6
 RUN apt-get install -y ffmpeg libsm6 libxext6
 
@@ -17,10 +17,6 @@ COPY dist/projectmlincvmediapipe-0.1.0-py3-none-any.whl .
 RUN python3 -m pip install --user projectmlincvmediapipe-0.1.0-py3-none-any.whl
 
 RUN python3 -m pip install --user streamlit
-
-# install dependencies for streamlit web demo
-COPY dist/projectmlincvmediapipe-0.1.0-py3-none-any.whl .
-RUN python3 -m pip install --user projectmlincvmediapipe-0.1.0-py3-none-any.whl
 
 WORKDIR /app
 COPY streamlitapp/app.py /app
