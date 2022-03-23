@@ -142,7 +142,7 @@ It include building and packaging a package from a Python project, setting up a 
 
 Please refer to below video for short demo of the project.
 
-![docker demo](https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4)
+https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4
 
 Or running following command (make sure you have Docker installed in your local machine):
 
