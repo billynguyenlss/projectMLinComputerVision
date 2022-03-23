@@ -131,7 +131,7 @@ Please visit the branch `week3` for project implementation and to reproduce my w
 git checkout week3
 ```
 
-The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers.
+The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers. Furthermore, there are further works to improve my current set up such as to re-order the Docker image building workflow to run after the Merge and Push test workflows.
 
 # 3. Conclusion
 
