@@ -131,7 +131,7 @@ Please visit the branch `week3` for project implementation and to reproduce my w
 git checkout week3
 ```
 
-The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers.
+The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers. Furthermore, there are further works to improve my current set up such as to re-order the Docker image building workflow to run after the Merge and Push test workflows.
 
 # 3. Conclusion
 
@@ -142,7 +142,7 @@ It include building and packaging a package from a Python project, setting up a 
 
 Please refer to below video for short demo of the project.
 
-![docker demo](https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4)
+https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4
 
 Or running following command (make sure you have Docker installed in your local machine):
 
