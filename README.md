@@ -32,7 +32,7 @@ https://github.com/PINTO0309/PINTO_model_zoo/tree/main/082_MediaPipe_Meet_Segmen
 ```
 The program from my project takes a selfie image and segments human out of the background.
 
-https://google.github.io/mediapipe/images/selfie_segmentation_web.mp4
+![](https://google.github.io/mediapipe/images/selfie_segmentation_web.mp4)
 
 ## 1.2 Environment set up
 
@@ -153,7 +153,8 @@ docker container run -p 8501:8501 billynguyenco/projectmlincomputervision_mediap
 ```
 
 # 5. Annexes
-- Mediapipe Meet Segmentation: https://github.com/PINTO0309/PINTO_model_zoo/tree/main/082_MediaPipe_Meet_Segmentation
+- Mediapipe Meet Segmentation Github: https://github.com/PINTO0309/PINTO_model_zoo/tree/main/082_MediaPipe_Meet_Segmentation
+- Mediapipe Meet Segmentation: https://google.github.io/mediapipe/solutions/selfie_segmentation.html
 - Docker documents: https://docs.docker.com/
 - Streamlit documents: https://docs.streamlit.io/
 - Python packaging: https://packaging.python.org/en/latest/
