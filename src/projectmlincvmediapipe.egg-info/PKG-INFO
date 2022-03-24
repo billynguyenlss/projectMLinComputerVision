@@ -144,7 +144,6 @@ Please visit the branch `week3` for project implementation and to reproduce my w
 git checkout week3
 ```
 
-<<<<<<< HEAD
 The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers. Furthermore, there are further works to improve my current set up such as to re-order the Docker image building workflow to run after the Merge and Push test workflows.
 
 # 3. Conclusion
@@ -155,20 +154,8 @@ It include building and packaging a package from a Python project, setting up a 
 # 4. Project outcome
 
 Please refer to below video for short demo of the project.
-=======
-The most challenge in this assignment is to keep the size of the Docker image small as well as less number of layers.
 
-# 3. Conclusion
-
-This project provide knowledge and experience to apply a Computer Vision model from research code to production-ready solution.
-It include building and packaging a package from a Python project, setting up a Working Environment, styling and linting for team-work, Continuous Integration/Continuous Deployment, creating ready-for-production Docker image and publish to Docker hub.
-
-# 4. Project outcome
-
-Please refer to below video for short demo of the project.
-
-![docker demo](https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4)
->>>>>>> 19466eb78d846a1c9285c0b3efe7332596f245b4
+https://user-images.githubusercontent.com/51374762/156072280-4b01cfaa-b14c-4167-8e80-ee40423cad69.mp4
 
 Or running following command (make sure you have Docker installed in your local machine):
 
@@ -176,15 +163,6 @@ Or running following command (make sure you have Docker installed in your local 
 docker container run -p 8501:8501 billynguyenco/projectmlincomputervision_mediapipe:latest
 ```
 
-<<<<<<< HEAD
-Or running following command (make sure you have Docker installed in your local machine):
-
-```
-docker container run -p 8501:8501 billynguyenco/projectmlincomputervision_mediapipe:latest
-```
-
-=======
->>>>>>> 19466eb78d846a1c9285c0b3efe7332596f245b4
 # 5. Annexes
 - Mediapipe Meet Segmentation: https://github.com/PINTO0309/PINTO_model_zoo/tree/main/082_MediaPipe_Meet_Segmentation
 - Docker documents: https://docs.docker.com/
