@@ -32,8 +32,6 @@ https://github.com/PINTO0309/PINTO_model_zoo/tree/main/082_MediaPipe_Meet_Segmen
 ```
 The program from my project takes a selfie image and segments human out of the background.
 
-![](https://google.github.io/mediapipe/images/selfie_segmentation_web.mp4)
-
 ## 1.2 Environment set up
 
 Please follow the instruction from below to set up environment for local running.
